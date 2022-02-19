@@ -1,4 +1,5 @@
 // const , let, var difference
+<<<<<<< Updated upstream
 
 // var name = "Bob";
 
@@ -23,6 +24,42 @@
 
 // console.log("b", b);
 
+=======
+function getShippingCost(country) {
+  let message;
+  let price
+  // Change code below this line
+switch(country) {
+  case `China` :
+  price = 100;
+  message = `Shipping ${country}  will cost ${price} credits`;
+  break;
+
+  case `Chile` :
+  message = `Shipping ${country} will cost ${price}} credits`;
+  break;
+
+  case `Australia` :
+  message = `Shipping ${country} will cost ${price} credits`;
+break;
+  case `Jamaica` :
+  message = `Shipping Jamaica will cost 120 credits`;
+  break;
+
+  default :
+  message =  `Sorry, there is no delivery to your country`;
+}
+  // Change code above this line
+  return message;
+}
+getShippingCost(`Australia`);
+getShippingCost("Germany");
+getShippingCost(`China`);
+getShippingCost("Chile");
+getShippingCost("Jamaica");
+getShippingCost("Sweden");
+console.log(getShippingCost);
+>>>>>>> Stashed changes
 // const a = 5;
 // const b = "5";
 
@@ -95,7 +132,11 @@
 // const repairBots = 150;
 // const defenceBots = 50;
 
+<<<<<<< Updated upstream
 // const result = `${companyName} has ${repairBots} and ${defenceBots}`;
+=======
+// const result = '${companyName} has ${repairBots} and ${defenceBots}';
+>>>>>>> Stashed changes
 
 // console.log(result);
 
